@@ -65,24 +65,4 @@ The application stores a slice of `book` values in-memory, initialized with thre
 * **main**
   * Creates a default Gin router, registers each route with its handler, and starts the server on `localhost:8080`.
 
-## What You've Done
 
-You've built a basic Go server that:
-
-1. Defines a `book` type and stores sample data in a slice.
-2. Exposes HTTP endpoints using Gin to interact with this data.
-3. Handles JSON serialization/deserialization automatically through Gin's binding features.
-4. Implements simple business logic (checkout and return operations) with error handling.
-
-This kind of API is a foundation for a larger application; you could later connect it to a database, add validation, authentication, and deploy it as a service.
-
-## Next Steps
-
-- Persist books in a database (PostgreSQL, SQLite, etc.) instead of in-memory slice.
-- Add input validation and return more informative errors.
-- Include tests using Go's `testing` package.
-- Consider using environment configuration and logging.
-
----
-
-Feel free to ask if you'd like help extending or refactoring this API!
