@@ -9,23 +9,17 @@ This is a simple RESTful API written in Go using the [Gin](https://github.com/gi
 
 ## Getting Started
 
-1. Clone or download the repository:
-   ```bash
-   git clone https://github.com/naodEthiop/APi-tutorial.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd c:\Users\NaodEthiop\Desktop\Projects\APi-tutorial
-   ```
-3. Initialize Go modules (if not already done):
-   ```bash
-   go mod tidy
-   ```
-4. Run the server:
-   ```bash
-   go run main.go
-   ```
-   The API will listen on `localhost:8080`.
+```bash
+# clone repo
+git clone https://github.com/<your‑username>/APi-tutorial.git
+cd APi-tutorial
+
+# install dependencies
+go mod tidy
+
+# start server (listens on localhost:8080)
+go run main.go
+```
 
 ## Endpoints
 
