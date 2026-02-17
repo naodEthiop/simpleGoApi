@@ -16,7 +16,7 @@ A lightweight **RESTful service** written in Go using the [Gin](https://github.c
 
 ```bash
 # clone repo
-git clone https://github.com/<your‑username>/APi-tutorial.git
+git clone https://github.com/<naodEthiop>/APi-tutorial.git
 cd APi-tutorial
 
 # install dependencies
